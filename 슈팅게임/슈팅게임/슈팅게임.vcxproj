@@ -129,7 +129,7 @@
   <ItemGroup>
     <ClCompile Include="game_functions.c" />
     <ClCompile Include="player_functions.c" />
-    <ClCompile Include="STG.c" />
+    <ClCompile Include="Shooting_Game.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="game_functions.h" />

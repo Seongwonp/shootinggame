@@ -7,7 +7,7 @@
 void playerdraw(int x, int y) {
     textcolor(GREEN1, BLACK);
     gotoxy(x, y);
-    printf("<=^=>");
+    printf("<-○->");
 }
 // 디자인과 지우기 를 계속 반복시켜 움직이는것 처럼 표시
 //지우기
@@ -31,38 +31,42 @@ void help() {
 }
 
 void startmenu() {
-
+    system("cls");
+    int x = 27; // 출력할 메뉴의 x 좌표
+    int y = 5; // 메뉴의 시작 y 좌표
+    int gap = 4; // 메뉴 간의 간격
     
         textcolor(RED1, BLACK);
-        gotoxy(25, 5);
+        gotoxy(x, y++);
          printf("■■■■\t■■■■■\t■■■■");  //stg (shooting game 줄임)
-        gotoxy(25, 6);
-        printf("■    \t  ■  \t■  ");
+        gotoxy(x, y++);
+        printf("■      ■ \t■  ");
 
         textcolor(YELLOW1, BLACK);
-        gotoxy(25, 7);
+        gotoxy(x, y++);
         printf("■■■■\t  ■  \t■  ■■■");
-        gotoxy(25, 8);
+        gotoxy(x, y++);
         printf("   ■\t  ■  \t■   ■");
 
         textcolor(BLUE1, BLACK);
-        gotoxy(25, 9);
+        gotoxy(x, y++);
         printf("■■■■\t  ■  \t■■■■■");
 
+        y += gap;
         textcolor(GREEN1, BLACK);
-        gotoxy(27, 14);
+        gotoxy(x, y++);
         printf("Game Start (1)\n\n\n\n");
 
         textcolor(BLUE2, BLACK);
-        gotoxy(27, 18);
+        gotoxy(x, y++);
         printf("   HELP (2)  \n\n\n\n");
 
         textcolor(RED2, BLACK);
-        gotoxy(27, 23);
+        gotoxy(x, y++);
         printf("   EXIT (3)\n\n\n\n");
 
         textcolor(WHITE, BLACK);
-        gotoxy(26, 27);
+        gotoxy(x-1, y + gap +3);
         printf("번호를 입력하시오: ");
        
 }
