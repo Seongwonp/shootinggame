@@ -1,1 +1,2 @@
 # shootinggame
+# read Word file
