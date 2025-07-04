@@ -99,7 +99,7 @@ if (GetAsyncKeyState(VK_LEFT) & 0x8000) {
 **Before**
 ![Old Start Screen](images/start_old.png)
 
-➡️
+                  ⬇️
 
 **After**
 ![New Start Screen](images/start_new.png)
@@ -115,9 +115,9 @@ if (GetAsyncKeyState(VK_LEFT) & 0x8000) {
 
 ### ❤️ Life System (Player Health)
 ![Life System](images/life1.png)
- ➡️
+ ➡️  
 ![Life System](images/life2.png)
- ➡️
+ ➡️  
 ![Life System](images/life3.png)
 
 ---
