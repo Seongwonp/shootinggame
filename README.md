@@ -123,7 +123,7 @@ if (GetAsyncKeyState(VK_LEFT) & 0x8000) {
 ---
 
 ### 🕹️ Gameplay Preview
-![Gameplay GIF](images/gameplay.gif)
+![Gameplay GIF](images/gamePlay.gif)
 
 ---
 
