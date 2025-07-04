@@ -5,7 +5,7 @@ This project includes a start screen, player and enemy movement, bullet firing, 
 
 ---
 
-## 🎯 Project Overview
+##  Project Overview
 
 - **Language**: C
 - **Platform**: Windows Console
@@ -18,7 +18,7 @@ This project includes a start screen, player and enemy movement, bullet firing, 
 
 ---
 
-## 📚 Technical Research
+## Technical Research
 
 - Studied `windows.h`, `stdbool.h`
 - Implemented `gotoxy()` for cursor movement
@@ -28,7 +28,7 @@ This project includes a start screen, player and enemy movement, bullet firing, 
 
 ---
 
-## 🧩 Game Features
+##  Game Features
 
 ### 🖼️ Start Screen
 - ASCII art intro
@@ -48,7 +48,7 @@ This project includes a start screen, player and enemy movement, bullet firing, 
 
 ---
 
-## 🛠️ Implementation Details
+## Implementation Details
 
 ### 📁 Header Files
 - `player_functions.h`: text color, cursor hiding, gotoxy
@@ -74,7 +74,7 @@ if (GetAsyncKeyState(VK_LEFT) & 0x8000) {
 
 ---
 
-## 🧪 Development Log
+## Development Log
 
 | Date       | Progress |
 |------------|----------|
@@ -92,9 +92,45 @@ if (GetAsyncKeyState(VK_LEFT) & 0x8000) {
 
 ## 📸 Screenshots
 
-> You can add screenshots here using  
-> `![screenshot](path/to/image.png)`  
-> if available.
+## 🎮 Screenshots & Gameplay
+
+### 🧵 Start Screen Update
+
+**Before**
+![Old Start Screen](images/start_old.png)
+
+➡️
+
+**After**
+![New Start Screen](images/start_new.png)
+
+---
+
+### ❓ Help Page  
+> Shows control instructions and pauses the console until a key is pressed.
+
+![Help Page](images/help_page.png)
+
+---
+
+### ❤️ Life System (Player Health)
+![Life System](images/life1.png)
+ ➡️
+![Life System](images/life2.png)
+ ➡️
+![Life System](images/life3.png)
+
+---
+
+### 🕹️ Gameplay Preview
+![Gameplay GIF](images/gameplay.gif)
+
+---
+
+### 💀 Game Over Screen
+![Game Over GIF](images/gameover.gif)
+
+
 
 ---
 
